@@ -27,3 +27,29 @@ $ npx @google/gemini-cli --version
 
 ```
 
+# node.js 업데이트(3개의 명령어)
+- node.js 업데이트 (3개의 명령어를 차례차례 입력하세요.)
+  - https://kimce.tistory.com/11
+
+```bash
+sudo npm cache clean --force
+sudo npm install -g n
+sudo n stable
+```
+
+-
+```bash
+sudo n stable
+  installing : node-v22.17.0
+       mkdir : /usr/local/n/versions/node/22.17.0
+       fetch : https://nodejs.org/dist/v22.17.0/node-v22.17.0-linux-x64.tar.xz
+     copying : node/22.17.0
+   installed : v22.17.0 (with npm 10.9.2)
+
+Note: the node command changed location and the old location may be remembered in your current shell.
+         old : /usr/bin/node
+         new : /usr/local/bin/node
+If "node --version" shows the old version then start a new shell, or reset the location hash with:
+hash -r  (for bash, zsh, ash, dash, and ksh)
+rehash   (for csh and tcsh)
+```
