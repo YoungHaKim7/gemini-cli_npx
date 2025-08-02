@@ -12,7 +12,7 @@ npx https://github.com/google-gemini/gemini-cli
 
 # Update
 
-```
+```sh
 $ npm config get cache
 
 $ rm -rf /Users/my_name/.npm/_npx
@@ -22,4 +22,8 @@ $ gemini --version
 
 # 다시 설치
 $ npx https://github.com/google-gemini/gemini-cli
+
+$ npx @google/gemini-cli --version
+
 ```
+
