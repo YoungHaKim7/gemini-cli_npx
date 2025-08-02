@@ -27,6 +27,16 @@ $ npx @google/gemini-cli --version
 
 ```
 
+# npm 설치시 npm으로 지워야함
+
+```
+# 삭제
+npm uninstall -g @google/gemini-cli
+
+# 다시 설치
+npm install -g @google/gemini-cli
+```
+
 # node.js 업데이트(3개의 명령어)
 - node.js 업데이트 (3개의 명령어를 차례차례 입력하세요.)
   - https://kimce.tistory.com/11
