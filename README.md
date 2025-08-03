@@ -25,6 +25,12 @@ $ npx https://github.com/google-gemini/gemini-cli
 
 $ npx @google/gemini-cli --version
 
+
+# 다른 방법
+$ npm install -g @google/gemini-cli@latest
+  or
+
+$ npm update -g @google/gemini-cli
 ```
 
 # npm 설치시 npm으로 지워야함
