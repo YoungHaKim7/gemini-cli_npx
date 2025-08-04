@@ -69,3 +69,25 @@ If "node --version" shows the old version then start a new shell, or reset the l
 hash -r  (for bash, zsh, ash, dash, and ksh)
 rehash   (for csh and tcsh)
 ```
+
+# nvm 설치
+
+- install
+  - https://github.com/nvm-sh/nvm
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+```
+
+- 설치 후 나온 메세지
+```bash
+=> Compressing and cleaning up git repository
+
+=> Appending nvm source string to /home/y/.profile
+=> bash_completion source string already in /home/y/.profile
+/usr/bin/node: 1: Syntax error: "(" unexpected
+=> Close and reopen your terminal to start using nvm or run the following to use it now:
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+```
