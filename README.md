@@ -33,6 +33,15 @@ $ npm install -g @google/gemini-cli@latest
 $ npm update -g @google/gemini-cli
 ```
 
+- `npx` 로 실행하는건 따로 설치되는게 아니라서 따로 업데이트 할 필요없다. ㅋ 알아서 업데이트 추후에 된다 약간 느리게 업데이트됨.
+  - Running via npx, update not applicable.
+  - npx를 통해 실행 중이며, 업데이트가 적용되지 않습니다.
+
+```bash
+ℹ Gemini CLI update available! 0.1.16 → 0.1.17
+  Running via npx, update not applicable.
+```
+
 # npm 설치시 npm으로 지워야함
 
 ```
